@@ -24,7 +24,7 @@ def load_data(file_path):
 
 def conversation():
     context = ""
-    data = load_data('C:\\Users\\AA\\Documents\\FitCheckAI\\data.txt')  # Set the path to your data file here
+    data = load_data('C:\\Users\\AA\\Documents\\FitCheckAI\\data.txt')
     print("Welcome to FitCheckAI, let's check your fit. Type 'exit' to end the conversation.")
     print("")
     while True:
