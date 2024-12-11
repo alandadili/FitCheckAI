@@ -4,7 +4,7 @@
 #make sure to install py -m pip install langchain-ollama and py -m pip install langchain-core
 #optional if not working install -m pip install ollama
 #!!! VERY IMPORTANT the python stuff isnt on path fix that might have to do with the venv !!!
-
+#works 12/10/2024
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
