@@ -1,3 +1,6 @@
+#langchain doesnt work the one time so I updated it
+#make sure to run ollama
+#to run ollama type into terminal ollama run llama3.2
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
@@ -24,7 +27,7 @@ def load_data(file_path):
 
 def conversation():
     context = ""
-    data = load_data('C:\\Users\\AA\\Documents\\FitCheckAI\\data.txt')
+    data = load_data(r"C:\Users\AA\Documents\FitCheckAI\FitCheckAI\data.txt")   #changed to raw string
     print("Welcome to FitCheckAI, let's check your fit. Type 'exit' to end the conversation.")
     print("")
     while True:
