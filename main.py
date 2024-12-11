@@ -1,6 +1,10 @@
 #langchain doesnt work the one time so I updated it
 #make sure to run ollama
 #to run ollama type into terminal ollama run llama3.2
+#make sure to install py -m pip install langchain-ollama and py -m pip install langchain-core
+#optional if not working install -m pip install ollama
+#!!! VERY IMPORTANT the python stuff isnt on path fix that might have to do with the venv !!!
+
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
